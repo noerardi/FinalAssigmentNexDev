@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Todo List App in JavaScript | CodingNepal</title>
+    <link rel="stylesheet" href="todos.css">
+	<link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Iconscout Link For Icons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  </head>
+  <body>
+<header class="header">
+
+		<a href="#" class="logo"> <i class="fas fa-lightbulb"></i> UNI Course </a>
+		<nav class="navbar">
+		   <div id="close-navbar" class="fas fa-times"></div>
+		   <a href="home.html">home</a>
+		   <a href="Portofolio.html">portofolio</a>
+		   <a href="about.html">tentang kami</a>
+		   <a href="contact.html">kontak</a>
+		   <a href="blog.html">Blog</a>
+		   <a href="Tods.html">Todos</a>
+		</nav>
+	 
+		<div class="icons">
+		   <div id="account-btn" class="fas fa-user"></div>
+		   <div id="menu-btn" class="fas fa-bars"></div>
+		</div>
+	 
+</header>
+	
+<section class="todolist">	 
+    <div class="wrapper">
+      <div class="task-input">
+        <input type="text" placeholder="Apa yang mau kamu kerjakan?">
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span class="active" id="all">All</span>
+          <span id="pending">Belum</span>
+          <span id="completed">Selesai</span>
+        </div>
+        <button class="clear-btn">Hapus Semua</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+</section>
+    <script src="todos.js"></script>
+
+  </body>
+</html>
